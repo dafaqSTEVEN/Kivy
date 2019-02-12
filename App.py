@@ -7,10 +7,14 @@ from kivy.uix.button import Button
 from kivy.lang import Builder
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.relativelayout import RelativeLayout
+from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.screenmanager import ScreenManager, Screen
+from kivy.uix.anchorlayout import AnchorLayout
 from kivy.config import Config
-Config.set('graphics', 'width', '600')
-Config.set('graphics', 'height', '600')
+
+Config.set('graphics', 'height', '800')
+Config.set('graphics', 'width', '700')
+
 
 class App(App):
 	def build(self):
@@ -20,6 +24,7 @@ class App(App):
 					t2.text = ''
 					l3.text =  'success'
 					s.current='screen2'
+					l3.text = 'await'
 				else:
 					l3.text = 'invalid'
 		def back(self):
@@ -27,29 +32,40 @@ class App(App):
 		s = ScreenManager()
 		screen1 = Screen(name = 'screen1')
 		screen2 = Screen(name = 'screen2')
-		g = FloatLayout(size_hint=(None, None),size =(900,600))
-		l1 = Label(text = 'Username:',pos_hint={None:None},pos=(0,400),font_size = 30,size_hint = (None,None),size = (200,100))
-		t1 = TextInput(font_size = 30,pos_hint={None:None},pos=(250,400),size_hint = (None,None),size = (200,100))
-		l2 = Label(text = 'Password:',pos_hint={None:None},pos=(0,300),font_size = 30,size_hint = (None,None),size = (200,100))
-		t2 = TextInput(font_size = 30 ,pos_hint={None:None},pos=(250,300),size_hint = (None,None),size = (200,100))
-		btn = Button(text = 'Login' ,pos_hint={None:None},pos=(0,0),size_hint = (None,None),size = (200,100),font_size = 30)
-		l3 = Label(text = 'await' ,pos=(200,0),pos_hint={None:None},font_size = 30,size_hint = (None,None),size = (200,100))
+		a = AnchorLayout(anchor_x = 'left',anchor_y = 'center')
+		g = BoxLayout(size_hint=(None, None),orientation = 'vertical',padding = [0,10,50,10])
+		b1 = BoxLayout(size_hint=(None, None))
+		b2 = BoxLayout(size_hint=(None, None))
+		b3 = BoxLayout(size_hint=(None, None))
+		l1 = Label(text = 'Username:',font_size = 30,size_hint = (None,None),size = (200,100))
+		t1 = TextInput(font_size = 30,size_hint = (None,None),size = (200,50))
+		l2 = Label(text = 'Password:',font_size = 30,size_hint = (None,None),size = (200,100))
+		t2 = TextInput(font_size = 30 ,size_hint = (None,None),size = (200,50))
+		btn = Button(text = 'Login' ,size_hint = (None,None),size = (200,50),font_size = 30)
+		l3 = Label(text = 'await' ,font_size = 30,size_hint = (None,None),size = (200,50))
 		btn.bind(on_press = login)
-		t4 = Label(text = 'Done' ,pos_hint={None:None},pos=(0,0),font_size = 30,size_hint = (None,None),size = (200,100))
-		btn2 = Button(text = 'Back',pos=(200,200),pos_hint={None:None},font_size = 30,size_hint = (None,None),size = (200,100))
+		t4 = Label(text = 'Done' ,font_size = 30,size_hint = (None,None),size = (200,100))
+
+		b4 = BoxLayout(size_hint=(None, None))
+		btn2 = Button(text = 'Back',font_size = 30,size_hint = (None,None),size = (200,50))
 		btn2.bind(on_press = back)
 		s.add_widget(screen1)
 		s.add_widget(screen2)
-		screen2.add_widget(t4)
-		screen2.add_widget(btn2)
+		screen2.add_widget(b4)
+		b4.add_widget(t4)
+		b4.add_widget(btn2)
 		s.current = 'screen1'
-		screen1.add_widget(g)
-		g.add_widget(l1)
-		g.add_widget(t1)
-		g.add_widget(l2)
-		g.add_widget(t2)
-		g.add_widget(btn)
-		g.add_widget(l3)
+		screen1.add_widget(a)
+		a.add_widget(g)
+		g.add_widget(b1)
+		g.add_widget(b2)
+		g.add_widget(b3)
+		b1.add_widget(l1)
+		b1.add_widget(t1)
+		b2.add_widget(l2)
+		b2.add_widget(t2)
+		b3.add_widget(btn)
+		b3.add_widget(l3)
 		
 		
 		return s
