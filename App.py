@@ -21,7 +21,7 @@ Config.set('graphics', 'height', '1920')
 Config.set('graphics', 'width', '1080')
 
 
-exec(open(r'E:\Program\GITHUBKIVY\MY\Kivy\time.py').read())
+exec(open(r'E:\Program\GITHUBKIVY\MY\Kivy\agency.py').read())
 
 class App(App):
 	def build(self):

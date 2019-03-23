@@ -47,19 +47,30 @@ print(agency_email)
 
 for i in range(len(agency_id)):
     agency[str(agency_id[i])] = [agency_id[i],agency_name[i],agency_url[i],agency_timezone[i],agency_lang[i],agency_phone[i],agency_email[i]]
-'''
-g = input('Tell me the agency ID : ')
 
-print(agency[g.upper()])
 '''
-'''
-h = input('Tell me the Agency ID : ')
-j = input('Tell me the info :')
-if j =='agency_id':
+while True:
+    h = input('Tell me the Agency ID : ')
+    j = input('Tell me the info : ')
+    if j =='agency_id':
+        x = 0
+    elif j =='agency_name':
+        x = 1
+    elif j =='agency_url':
+        x = 2
+    elif j =='agency_timezone':
+        x = 3
+    elif j == 'agency_lang':
+        x = 4
+    elif j == 'agency_phone':
+        x = 5
+    elif j == 'agency_email':
+        x = 6
+
+    temp = agency[h.upper()]
+    print('The ' + str(j)+ ' is '+temp[x])
     x = 0
-elif j =='agency_name':
-    x = 1
-temp = agency[h.upper()]
-print(temp[x])
+    break
 '''
+
 
