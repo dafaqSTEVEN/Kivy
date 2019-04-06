@@ -1,0 +1,71 @@
+
+
+Current Weather
+
+    http://www.weather.gov.hk/wxinfo/currwx/current.htm
+    Current Weather
+en-us
+The content available in this file, including but
+    not limited to all text, graphics, drawings, diagrams,
+    photographs and compilation of data or other materials are
+    protected by copyright. The Government of the Hong Kong Special
+    Administrative Region is the owner of all copyright works
+    contained in this website.
+
+Current Weather
+http://www.weather.gov.hk/wxinfo/currwx/current.htm
+	  http://rss.weather.gov.hk/img/HKOlogo.gif
+144
+28
+
+
+hkowm@hko.gov.hk
+
+      http://rss.weather.gov.hk/rss/CurrentWeather/20190401060200
+Sun, 31 Mar 2019 22:02:00 GMT Bulletin updated at 06:02 HKT 01/04/2019
+R
+
+      http://www.weather.gov.hk/wxinfo/currwx/current.htm
+        
+At 
+        6 a.m. 
+               at the Hong Kong Observatory :
+        Air temperature : 20 degrees Celsius
+        Relative Humidity : 83 per cent
+Please be reminded that:The Strong Monsoon Signal has been issued. 
+                The air temperatures at other places were:
+                
+
+
+Hong Kong Observatory20 degrees ;
+King's Park19 degrees ;
+Wong Chuk Hang20 degrees ;
+Ta Kwu Ling20 degrees ;
+Lau Fau Shan19 degrees ;
+Tai Po20 degrees ;
+Sha Tin20 degrees ;
+Tuen Mun21 degrees ;
+Tseung Kwan O19 degrees ;
+Sai Kung20 degrees ;
+Cheung Chau19 degrees ;
+Chek Lap Kok21 degrees ;
+Tsing Yi20 degrees ;
+Shek Kong21 degrees ;
+Tsuen Wan Ho Koon19 degrees ;
+Tsuen Wan Shing Mun Valley20 degrees ;
+Hong Kong Park20 degrees ;
+Shau Kei Wan19 degrees ;
+Kowloon City19 degrees ;
+Happy Valley20 degrees ;
+Wong Tai Sin20 degrees ;
+Stanley19 degrees ;
+Kwun Tong19 degrees ;
+Sham Shui Po20 degrees ;
+Kai Tak Runway Park20 degrees ;
+Yuen Long Park21 degrees ;
+Tai Mei Tuk19 degrees .
+
+        ]]>
+        
+
+

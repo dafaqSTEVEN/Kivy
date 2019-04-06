@@ -1,4 +1,6 @@
 import csv
+import os
+dir_path = os.path.dirname(os.path.realpath(__file__))
 stop = {}
 
 stop_id = []
@@ -9,7 +11,7 @@ zone_id = []
 location_type = []
 stop_timezone = []
 
-with open("E:\\Program\\GITHUBKIVY\\MY\\Kivy\\bus_en\\stops.csv",'rt',encoding = 'utf8') as f:
+with open(str(dir_path + "\\bus_en\\stops.csv"),'rt',encoding = 'utf8') as f:
     stop_dict = csv.DictReader(f ,delimiter=',')
     for row in stop_dict:
         stop_id.append(row['stop_id'])
@@ -22,5 +24,6 @@ with open("E:\\Program\\GITHUBKIVY\\MY\\Kivy\\bus_en\\stops.csv",'rt',encoding =
 for i in range(len(stop_id)):
     stop[str(stop_id[i])] = [stop_id[i],stop_name[i],stop_lat[i],stop_lon[i],location_type[i],stop_timezone[i]]
 
-
+'''
 print(stop)
+'''

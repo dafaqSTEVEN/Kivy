@@ -21,7 +21,7 @@ Config.set('graphics', 'height', '1920')
 Config.set('graphics', 'width', '1080')
 
 
-exec(open(r'E:\Program\GITHUBKIVY\MY\Kivy\agency.py').read())
+
 
 class App(App):
 	def build(self):
@@ -53,7 +53,7 @@ class App(App):
 		space = Label(size_hint = (None,None),size = (400,50))
 		t2 = TextInput(hint_text = 'Password',font_size = 20 ,size_hint = (None,None),size = (600,50),password = True)
 		btn = Button(font_name = 'FONT',markup = True,text = '[color=FFFFFF]LOGIN[/color]' ,size_hint = (None,None),size = (100,30),font_size = 20,pos = (450,680))
-		l3 = Label(text = 'await') ,font_size = 30,size_hint = (None,None),size = (200,50),markup = True,pos = (50,50))
+		l3 = Label(text = 'await',font_size = 30,size_hint = (None,None),size = (200,50),markup = True,pos = (50,50))
 		btn.bind(on_press = login)
 		t4 = Label(text = 'SIGNED IN' ,font_size = 30,size_hint = (None,None),size = (200,100))
 		b4 = BoxLayout(pos_hint={"x":0.5,"y":0.7},size_hint=(None, None))
