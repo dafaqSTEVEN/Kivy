@@ -38,10 +38,13 @@ with open('logz.txt','r+') as var:
             print(line)
         if 'Humidity' in line:
             print(line)
+        if 'UV Index' in line:
+            print(line)
+        if 'UV radiation' in line:
+            print(line)
         if 'The air' in line:
             i = True
         if ']]>' in line:
             pass
         elif i == True and line != '':
             print(str(line)+'\n-------------------')
-

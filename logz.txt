@@ -21,49 +21,51 @@ http://www.weather.gov.hk/wxinfo/currwx/current.htm
 
 hkowm@hko.gov.hk
 
-      http://rss.weather.gov.hk/rss/CurrentWeather/20190401060200
-Sun, 31 Mar 2019 22:02:00 GMT Bulletin updated at 06:02 HKT 01/04/2019
+      http://rss.weather.gov.hk/rss/CurrentWeather/20190406150200
+Sat, 06 Apr 2019 07:02:00 GMT Bulletin updated at 15:02 HKT 06/04/2019
 R
 
       http://www.weather.gov.hk/wxinfo/currwx/current.htm
         
 At 
-        6 a.m. 
+        3 p.m. 
                at the Hong Kong Observatory :
-        Air temperature : 20 degrees Celsius
-        Relative Humidity : 83 per cent
-Please be reminded that:The Strong Monsoon Signal has been issued. 
+        Air temperature : 28 degrees Celsius
+        Relative Humidity : 63 per cent
+        During the past hour
+        the mean UV Index recorded at King's Park : 5
+        Intensity of UV radiation : moderate 
                 The air temperatures at other places were:
                 
 
 
-Hong Kong Observatory20 degrees ;
-King's Park19 degrees ;
-Wong Chuk Hang20 degrees ;
-Ta Kwu Ling20 degrees ;
-Lau Fau Shan19 degrees ;
-Tai Po20 degrees ;
-Sha Tin20 degrees ;
-Tuen Mun21 degrees ;
-Tseung Kwan O19 degrees ;
-Sai Kung20 degrees ;
-Cheung Chau19 degrees ;
-Chek Lap Kok21 degrees ;
-Tsing Yi20 degrees ;
-Shek Kong21 degrees ;
-Tsuen Wan Ho Koon19 degrees ;
-Tsuen Wan Shing Mun Valley20 degrees ;
-Hong Kong Park20 degrees ;
-Shau Kei Wan19 degrees ;
-Kowloon City19 degrees ;
-Happy Valley20 degrees ;
-Wong Tai Sin20 degrees ;
-Stanley19 degrees ;
-Kwun Tong19 degrees ;
-Sham Shui Po20 degrees ;
-Kai Tak Runway Park20 degrees ;
-Yuen Long Park21 degrees ;
-Tai Mei Tuk19 degrees .
+Hong Kong Observatory28 degrees ;
+King's Park27 degrees ;
+Wong Chuk Hang26 degrees ;
+Ta Kwu Ling30 degrees ;
+Lau Fau Shan29 degrees ;
+Tai Po28 degrees ;
+Sha Tin28 degrees ;
+Tuen Mun28 degrees ;
+Tseung Kwan O29 degrees ;
+Sai Kung29 degrees ;
+Cheung Chau29 degrees ;
+Chek Lap Kok29 degrees ;
+Tsing Yi27 degrees ;
+Shek Kong29 degrees ;
+Tsuen Wan Ho Koon27 degrees ;
+Tsuen Wan Shing Mun Valley27 degrees ;
+Hong Kong Park27 degrees ;
+Shau Kei Wan28 degrees ;
+Kowloon City29 degrees ;
+Happy Valley28 degrees ;
+Wong Tai Sin29 degrees ;
+Stanley26 degrees ;
+Kwun Tong29 degrees ;
+Sham Shui Po27 degrees ;
+Kai Tak Runway Park29 degrees ;
+Yuen Long Park30 degrees ;
+Tai Mei Tuk30 degrees .
 
         ]]>
         
