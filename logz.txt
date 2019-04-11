@@ -21,51 +21,51 @@ http://www.weather.gov.hk/wxinfo/currwx/current.htm
 
 hkowm@hko.gov.hk
 
-      http://rss.weather.gov.hk/rss/CurrentWeather/20190406150200
-Sat, 06 Apr 2019 07:02:00 GMT Bulletin updated at 15:02 HKT 06/04/2019
+      http://rss.weather.gov.hk/rss/CurrentWeather/20190411170200
+Thu, 11 Apr 2019 09:02:00 GMT Bulletin updated at 17:02 HKT 11/04/2019
 R
 
       http://www.weather.gov.hk/wxinfo/currwx/current.htm
         
 At 
-        3 p.m. 
+        5 p.m. 
                at the Hong Kong Observatory :
-        Air temperature : 28 degrees Celsius
-        Relative Humidity : 63 per cent
+        Air temperature : 29 degrees Celsius
+        Relative Humidity : 76 per cent
         During the past hour
-        the mean UV Index recorded at King's Park : 5
-        Intensity of UV radiation : moderate 
+        the mean UV Index recorded at King's Park : 1
+        Intensity of UV radiation : low 
                 The air temperatures at other places were:
                 
 
 
-Hong Kong Observatory28 degrees ;
-King's Park27 degrees ;
-Wong Chuk Hang26 degrees ;
-Ta Kwu Ling30 degrees ;
+Hong Kong Observatory29 degrees ;
+King's Park29 degrees ;
+Wong Chuk Hang27 degrees ;
+Ta Kwu Ling29 degrees ;
 Lau Fau Shan29 degrees ;
 Tai Po28 degrees ;
-Sha Tin28 degrees ;
+Sha Tin29 degrees ;
 Tuen Mun28 degrees ;
-Tseung Kwan O29 degrees ;
-Sai Kung29 degrees ;
+Tseung Kwan O28 degrees ;
+Sai Kung27 degrees ;
 Cheung Chau29 degrees ;
-Chek Lap Kok29 degrees ;
+Chek Lap Kok30 degrees ;
 Tsing Yi27 degrees ;
 Shek Kong29 degrees ;
 Tsuen Wan Ho Koon27 degrees ;
 Tsuen Wan Shing Mun Valley27 degrees ;
-Hong Kong Park27 degrees ;
+Hong Kong Park28 degrees ;
 Shau Kei Wan28 degrees ;
 Kowloon City29 degrees ;
 Happy Valley28 degrees ;
 Wong Tai Sin29 degrees ;
-Stanley26 degrees ;
-Kwun Tong29 degrees ;
-Sham Shui Po27 degrees ;
+Stanley27 degrees ;
+Kwun Tong28 degrees ;
+Sham Shui Po29 degrees ;
 Kai Tak Runway Park29 degrees ;
-Yuen Long Park30 degrees ;
-Tai Mei Tuk30 degrees .
+Yuen Long Park28 degrees ;
+Tai Mei Tuk28 degrees .
 
         ]]>
         
