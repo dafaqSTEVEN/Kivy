@@ -13,7 +13,6 @@ import datetime
 import time
 from urllib.request import urlopen
 from bs4 import *
-from lxml import etree
 import quandl
 import os
 import json
