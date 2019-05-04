@@ -69,7 +69,6 @@ def news(bot,update):
         newsarray.clear()
 
 
-#
 # comment
 
 
