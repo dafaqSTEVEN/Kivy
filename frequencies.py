@@ -8,7 +8,7 @@ start_time = []
 end_time = []
 headway_secs = []
 
-with open(dir_path + '\\bus_en\\frequencies.csv') as d:
+with open(dir_path + '/bus_en/frequencies.csv') as d:
     frequecies_data = csv.DictReader(d,delimiter = ',')
     for row in frequecies_data:
         trip_id.append(row['trip_id'])

@@ -8,7 +8,7 @@ route_id = []
 origin_id = []
 destination = []
 
-with open(dir_path + '\\bus_en\\fare_rules.csv') as q:
+with open(dir_path + '/bus_en/fare_rules.csv') as q:
     fare_data = csv.DictReader(q,delimiter = ',')
     for row in fare_data:
         fare_id.append(row['fare_id'])

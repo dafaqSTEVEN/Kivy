@@ -7,7 +7,7 @@ trip = {}
 route_id = []
 service_id = []
 trip_id = []
-with open(str(dir_path + "\\bus_en\\trips.csv"),'rt',encoding = 'utf8') as f:
+with open(str(dir_path + "/bus_en/trips.csv"),'rt',encoding = 'utf8') as f:
     trip_dict = csv.DictReader(f ,delimiter=',')
     for row in trip_dict:
         route_id.append(row['route_id'])

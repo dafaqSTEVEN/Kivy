@@ -11,7 +11,7 @@ route_long_name = []
 route_type = []
 route_url = []
 
-with open(str(dir_path + "\\bus_en\\routes.csv")) as q:
+with open(str(dir_path + "/bus_en/routes.csv")) as q:
     route_data = csv.DictReader(q, delimiter=',')
     for row in route_data:
         temp_route_id = row['route_id']

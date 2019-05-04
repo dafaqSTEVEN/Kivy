@@ -12,7 +12,7 @@ pickup_type = []
 drop_off_type = []
 timepoint = []
 
-with open(str(dir_path + "\\bus_en\\stop_times.csv")) as s:
+with open(str(dir_path + "/bus_en/stop_times.csv")) as s:
     datas = csv.DictReader(s, delimiter = ',')
     for row in datas:
         trip_id.append(row['trip_id'])

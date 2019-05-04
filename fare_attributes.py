@@ -10,7 +10,7 @@ payment_method = []
 transfers = []
 agency_id = []
 
-with open(dir_path + '\\bus_en\\fare_attributes.csv') as t:
+with open(dir_path + '/bus_en/fare_attributes.csv') as t:
     fare_dataset = csv.DictReader( t ,delimiter = ',')
     for row in fare_dataset:
         fare_id.append(row['fare_id'])

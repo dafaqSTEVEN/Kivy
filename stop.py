@@ -11,7 +11,7 @@ zone_id = []
 location_type = []
 stop_timezone = []
 
-with open(str(dir_path + "\\bus_en\\stops.csv"),'rt',encoding = 'utf8') as f:
+with open(str(dir_path + "/bus_en/stops.csv"),'rt',encoding = 'utf8') as f:
     stop_dict = csv.DictReader(f ,delimiter=',')
     for row in stop_dict:
         stop_id.append(row['stop_id'])

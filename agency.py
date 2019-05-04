@@ -11,7 +11,7 @@ agency_phone = []
 agency_email = []
 
 
-with open(str(dir_path + "\\bus_en\\agency.csv")) as f:
+with open(str(dir_path + "/bus_en/agency.csv")) as f:
     data = csv.DictReader(f, delimiter=',')
     for row in data:
         temp_agency_id = row['agency_id']
