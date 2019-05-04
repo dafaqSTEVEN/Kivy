@@ -32,14 +32,14 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 starting_time = time.time()
 ending_time = starting_time + 20
 print('\rLoading data...')
-exec(open(dir_path + '\\agency.py').read())
-exec(open(dir_path + '\\fare_attributes.py').read())
-exec(open(dir_path + '\\fare_rules.py').read())
-exec(open(dir_path + '\\frequencies.py').read())
-exec(open(dir_path + '\\route.py').read())
-exec(open(dir_path + '\\stop.py').read())
-exec(open(dir_path + '\\trips.py').read())
-exec(open(dir_path + '\\stop_time.py').read())
+exec(open(dir_path + '/agency.py').read())
+exec(open(dir_path + '/fare_attributes.py').read())
+exec(open(dir_path + '/fare_rules.py').read())
+exec(open(dir_path + '/frequencies.py').read())
+exec(open(dir_path + '/route.py').read())
+exec(open(dir_path + '/stop.py').read())
+exec(open(dir_path + '/trips.py').read())
+exec(open(dir_path + '/stop_time.py').read())
 print("Time usage : " + str(round(time.time() - starting_time, 3)) + ' seconds.\n')
 
 trip_route_convertion = []
@@ -96,7 +96,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-# exec (open(dir_path + '\\stock.py').read())
+# exec (open(dir_path + '/stock.py').read())
 
 def weather(bot,update):
     fp = open('logz.txt', 'w+')
