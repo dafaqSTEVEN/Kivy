@@ -72,6 +72,7 @@ def news(bot,update):
 
 
 
+# comment
 
 
 print('Running ' + time.ctime(time.time()))
