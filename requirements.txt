@@ -3,3 +3,4 @@ python-telegram-bot
 psutil
 bs4
 beautifulsoup4
+quandl
