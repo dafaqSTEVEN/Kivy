@@ -21,51 +21,69 @@ http://www.weather.gov.hk/wxinfo/currwx/current.htm
 
 hkowm@hko.gov.hk
 
-      http://rss.weather.gov.hk/rss/CurrentWeather/20190504130200
-Sat, 04 May 2019 05:02:00 GMT Bulletin updated at 13:02 HKT 04/05/2019
+      http://rss.weather.gov.hk/rss/CurrentWeather/20190505010200
+Sat, 04 May 2019 17:02:00 GMT Bulletin updated at 01:02 HKT 05/05/2019
 R
 
       http://www.weather.gov.hk/wxinfo/currwx/current.htm
         
 At 
-        1 p.m. 
+        1 a.m. 
                at the Hong Kong Observatory :
-        Air temperature : 23 degrees Celsius
-        Relative Humidity : 73 per cent
-        During the past hour
-        the mean UV Index recorded at King's Park : 1
-        Intensity of UV radiation : low 
+        Air temperature : 21 degrees Celsius
+        Relative Humidity : 95 per cent
+
                 The air temperatures at other places were:
                 
 
 
-Hong Kong Observatory23 degrees ;
-King's Park23 degrees ;
-Wong Chuk Hang23 degrees ;
-Ta Kwu Ling22 degrees ;
-Lau Fau Shan22 degrees ;
-Tai Po23 degrees ;
-Sha Tin23 degrees ;
-Tuen Mun23 degrees ;
-Tseung Kwan O23 degrees ;
-Sai Kung23 degrees ;
-Cheung Chau22 degrees ;
-Chek Lap Kok23 degrees ;
-Tsing Yi23 degrees ;
-Shek Kong23 degrees ;
-Tsuen Wan Ho Koon21 degrees ;
-Tsuen Wan Shing Mun Valley23 degrees ;
-Hong Kong Park23 degrees ;
-Shau Kei Wan22 degrees ;
-Kowloon City22 degrees ;
-Happy Valley23 degrees ;
-Wong Tai Sin23 degrees ;
-Stanley23 degrees ;
-Kwun Tong22 degrees ;
-Sham Shui Po23 degrees ;
-Kai Tak Runway Park23 degrees ;
-Yuen Long Park23 degrees ;
-Tai Mei Tuk22 degrees .
+Hong Kong Observatory21 degrees ;
+King's Park21 degrees ;
+Wong Chuk Hang21 degrees ;
+Ta Kwu Ling20 degrees ;
+Lau Fau Shan20 degrees ;
+Tai Po20 degrees ;
+Sha Tin21 degrees ;
+Tuen Mun21 degrees ;
+Tseung Kwan O21 degrees ;
+Sai Kung21 degrees ;
+Cheung Chau21 degrees ;
+Chek Lap Kok22 degrees ;
+Tsing Yi21 degrees ;
+Shek Kong21 degrees ;
+Tsuen Wan Ho Koon20 degrees ;
+Tsuen Wan Shing Mun Valley21 degrees ;
+Hong Kong Park21 degrees ;
+Shau Kei Wan21 degrees ;
+Kowloon City21 degrees ;
+Happy Valley22 degrees ;
+Wong Tai Sin22 degrees ;
+Stanley21 degrees ;
+Kwun Tong21 degrees ;
+Sham Shui Po21 degrees ;
+Kai Tak Runway Park22 degrees ;
+Yuen Long Park20 degrees ;
+Tai Mei Tuk20 degrees .
+
+Between 11:45 p.m. and 0:45 a.m., the rainfall recorded in various regions were: 
+Eastern District4 to 7mm;
+Kwun Tong3 to 6mm;
+Southern District1 to 5mm;
+Central & Western District1 to 2mm;
+Kowloon City1 to 2mm;
+Tuen Mun1 to 2mm;
+Wan Chai1 to 2mm;
+Wong Tai Sin1 to 2mm;
+Yau Tsim Mong1 to 2mm;
+Sham Shui Po1mm;
+Sai Kung0 to 9mm;
+Islands District0 to 5mm;
+North District0 to 5mm;
+Tai Po0 to 4mm;
+Yuen Long0 to 3mm;
+Sha Tin0 to 2mm;
+Tsuen Wan0 to 2mm;
+Kwai Tsing0 to 1mm.
 
         ]]>
         
