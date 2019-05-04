@@ -69,8 +69,8 @@ def news(bot,update):
         newsarray.clear()
 
 
-
-
+#
+# comment
 
 
 print('Running ' + time.ctime(time.time()))
