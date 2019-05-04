@@ -4,10 +4,11 @@ import datetime
 from time import strftime
 from datetime import timedelta
 starting_time = time.time()
-trip_route_convertion = []
+
 ending_time = starting_time + 20
 dir_path = os.path.dirname(os.path.realpath(__file__))
 print('\rLoading data...')
+trip_route_convertion = []
 exec (open(dir_path + '\\agency.py').read())
 exec (open(dir_path + '\\fare_attributes.py').read())
 exec (open(dir_path + '\\fare_rules.py').read())
