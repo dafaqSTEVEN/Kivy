@@ -8,7 +8,7 @@ from telegram.utils.helpers import escape_markdown
 import os
 import xml.etree.ElementTree as ET
 from datetime import date,timedelta
-import pandas as pd
+# import pandas as pd
 import datetime
 import time
 from urllib.request import urlopen
