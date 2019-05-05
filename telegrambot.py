@@ -375,8 +375,8 @@ type_sub_list = ''
 ran_answer = None
 def gg(bot,update,user_data):
     global search
-    search = update.message.text.partition(' ')[2].lower()
-    with open("tag.csv") as q:
+    search = update.message.text.partition(' ')[2].lower().encode('utf-8').strip()
+    with open("tag.csv",encoding = 'utf-8') as q:
         table = csv.DictReader(q, delimiter=',')
         for row in table:
             global ran, type_list, type_sub_list
@@ -392,7 +392,7 @@ def gg(bot,update,user_data):
                 ran.append(row['subtag'])
         ran.append(search)
         print(ran)
-    with open('tag.csv', 'a+',newline='') as g:
+    with open('tag.csv', 'a+',newline='',encoding='utf-8') as g:
         data = csv.DictReader(g, delimiter=',')
         write = csv.writer(g, delimiter=',')
         global search_tag
