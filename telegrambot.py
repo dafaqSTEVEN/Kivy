@@ -67,6 +67,15 @@ def news(bot,update):
         keyboard = [[]]
         newsarray.clear()
 
+def lg(bot,update):
+    fp = open('logging.txt', "r")
+    lines = fp.readlines()
+    fp.close()
+    n = len(lines) - 5
+    for i in range(5):
+        temp = (str(lines[n]))
+        n += 1
+        update.message.reply_text(str(temp))
 
 # comment
 #
@@ -458,6 +467,7 @@ def thank(bot,update):
 def main():
     updater = Updater("886726378:AAF9gwzWZzr0pfw-Wh5_bnnQHUybcOI6Z6g")
     assist = updater.dispatcher
+    assist.add_handler(RegexHandler('.*log.*',lg))
     assist.add_handler(RegexHandler('.*news.*',news))
     assist.add_handler(CommandHandler('start',start,pass_args = True))
     assist.add_handler(RegexHandler('.*status.*',status))
