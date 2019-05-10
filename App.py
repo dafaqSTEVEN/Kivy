@@ -16,22 +16,30 @@ from kivy.config import Config
 from kivy.graphics import Color, Rectangle,Line
 from kivy.core.image import Image 
 from kivy.uix.image import Image
-
+from kivy.garden.qrcode import QRCodeWidget
+from time import strftime
 Config.set('graphics', 'height', '1920')
 Config.set('graphics', 'width', '1080')
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+exec(open(dir_path + '/user.py').read())
 
-
+user_name = 'null'
 
 class App(App):
 	def build(self):
 		def login(self):
-				if t1.text == 'admin' and t2.text == 'admin':
+				global user_name
+				if t1.text in login_list and login_list[t1.text] == t2.text:
+					user_name = t1.text
+					print(user_name)
 					t1.text = ''
 					t2.text = ''
 					l3.text =  'success'
 					s.current='screen2'
 					l3.text = 'await'
+					l5 = Label(text='Welcome ' + user_name + '.\nThe time now is ' + strftime('%H%M'), pos=(20, 20),font_size=50)
+					screen2.add_widget(l5)
 				else:
 					l3.text = 'invalid'
 		def back(self):
@@ -40,8 +48,13 @@ class App(App):
 		with root.canvas.before:
 			Color(255, 255, 255, 0.7)
 			self.rect = Rectangle(size = root.size)
-			
+		def generate(self):
+			b5.add_widget(QRCodeWidget(data='Authenticated.' + user_name))
+
 		s = ScreenManager()
+		b5 = BoxLayout(size_hint =(0.2,0.2),pos = (400,400),orientation = 'vertical')
+		l4 = Button(text = 'Generate ID QR code',size = (300,300))
+		l4.bind(on_press = generate)
 		screen1 = Screen(name = 'screen1')
 		with screen1.canvas.before:
 			Line(points=[100, 700, 400, 700], width=3)
@@ -56,13 +69,16 @@ class App(App):
 		l3 = Label(text = 'await',font_size = 30,size_hint = (None,None),size = (200,50),markup = True,pos = (50,50))
 		btn.bind(on_press = login)
 		t4 = Label(text = 'SIGNED IN' ,font_size = 30,size_hint = (None,None),size = (200,100))
-		b4 = BoxLayout(pos_hint={"x":0.5,"y":0.7},size_hint=(None, None))
+		b4 = BoxLayout(pos = (600,1800),size_hint=(None, None))
 		btn2 = Button(text = 'Log Out',font_size = 30,size_hint = (None,None),size = (200,50))
 		btn2.bind(on_press = back)
+
 		root.add_widget(s)
 		s.add_widget(screen1)
 		s.add_widget(screen2)
 		screen2.add_widget(b4)
+		screen2.add_widget(b5)
+		b5.add_widget(l4)
 		b4.add_widget(t4)
 		b4.add_widget(btn2)
 		s.current = 'screen1'
